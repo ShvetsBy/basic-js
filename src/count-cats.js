@@ -10,7 +10,7 @@ module.exports = function countCats(matrix) {
   // console.log ('CatArr:' + ' ' + catArr)
 
     for (i = 0; i < catArr.length; i++) {
-      console.log(catArr[i]);
+      // console.log(catArr[i]);
       if (catArr[i] === '^^') {
        catCounter = catCounter + 1;
       }
