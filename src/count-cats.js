@@ -7,9 +7,7 @@ module.exports = function countCats(matrix) {
   
   let catArr = matrix.flat();
   let catCounter = 0;
-  // console.log ('CatArr:' + ' ' + catArr);
-  
-  function isCat() {
+  // console.log ('CatArr:' + ' ' + catArr)
 
     for (i = 0; i < catArr.length; i++) {
       console.log(catArr[i]);
@@ -19,9 +17,7 @@ module.exports = function countCats(matrix) {
        
     };
     // console.log(catCounter);
-    // return catCounter;
-    
-  }
+
   return catCounter;
 };
 
