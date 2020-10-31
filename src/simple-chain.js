@@ -24,3 +24,41 @@ const chainMaker = {
 };
 
 module.exports = chainMaker;
+
+
+
+
+// const chainMaker = {
+  
+//   let chain = '';
+  
+//   getLength() {
+//     return arguments.length();
+//   },
+
+//   addLink(value) {
+    
+//     this.chain += this.chain
+
+//   },
+//   removeLink(position) {
+//     this.chain -= this.chain
+//   },
+
+//   reverseChain() {
+    
+//     let reverse = '';
+    
+//     for ( i = 0; i < this.lenght; i++) {
+//       reverse = line.split('').reverse().join('');
+//     }
+    
+//   },
+
+//   finishChain() {
+    
+//     return chain
+//   }
+// };
+
+

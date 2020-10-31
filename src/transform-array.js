@@ -22,7 +22,8 @@ module.exports = function transform(arr) {
       continue;
     }
 
-    if (arr[i] === '--discard-prev') continue;
+    if (arr[i] === '--discard-prev')
+     continue;
 
     transformedArray.push(arr[i]);
     
